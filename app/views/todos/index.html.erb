@@ -1,0 +1,32 @@
+<% content_for :header_tags do %>
+    <%= stylesheet_link_tag 'style', plugin: 'todo_list' %>
+<% end %>
+<h1 class="totitle">To-do List</h1>
+
+<%= link_to "New Todo", new_todo_path, class: "btn btn-primary mb-3" %>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th >Author</th>
+
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @todos.each do |todo| %>
+      <tr>
+        <td class="title"><%= todo.title %></td>
+        <td><%= todo.description %></td>
+        <td class="author"><%= todo.author %></td>
+
+        <td>
+          <%= link_to "Delete", todo, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger btn-sm new' %>
+          <%= link_to "Edit", edit_todo_path(todo), class: 'btn btn-primary btn-sm edit' %>
+          </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

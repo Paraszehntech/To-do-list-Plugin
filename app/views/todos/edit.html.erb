@@ -1,0 +1,8 @@
+<% content_for :header_tags do %>
+    <%= stylesheet_link_tag 'edit', plugin: 'todo_list' %>
+<% end %>
+<h1>Edit Todo</h1>
+
+<%= render 'form', todo: @todo %>
+ 
+<%= link_to 'Back', todos_path, class: 'btn back' %>

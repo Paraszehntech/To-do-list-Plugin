@@ -1,0 +1,35 @@
+
+.form-group {
+    margin-bottom: 20px; /* Add some space between form groups */
+  }
+  
+  .form-label {
+    font-weight: bold; /* Make labels bold */
+  }
+  
+  .form-control {
+    width: 100%; /* Make form controls fill their container */
+    padding: 8px; /* Add padding to form controls */
+    border: 1px solid #ccc; /* Add a border to form controls */
+    border-radius: 4px; /* Add border radius to form controls */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    height: 40px;
+  }
+  
+  .btn {
+    padding: 10px 20px; /* Add padding to buttons */
+    border: none; /* Remove button border */
+    border-radius: 4px; /* Add border radius to buttons */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .btn-primary {
+    background-color: #007bff !important; /* Blue background for primary buttons */
+    color: #fff; /* White text color for primary buttons */
+    padding-bottom: 25px;
+  }
+ .label{
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 5px;
+ }

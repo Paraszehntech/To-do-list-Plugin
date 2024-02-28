@@ -1,0 +1,10 @@
+<h3>Todo List</h3>
+<ul>
+  <% if Todo.all.present? %>
+    <% Todo.all.each do |todo| %>
+      <li><%= todo.title %></li>
+    <% end %>
+  <% else %>
+    <li>No todos found</li>
+  <% end %>
+</ul>

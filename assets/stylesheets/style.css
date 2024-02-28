@@ -1,0 +1,72 @@
+.totitle{
+    color: #333;
+    font-size: 35px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  /* Style for the "New Todo" button */
+  .btn-primary {
+    background-color: #007bff;
+    color: white !important;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+  }
+  
+  /* Style for the new table */
+/* Style for the new table */
+.table {
+    margin-top: 30px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Style for table headings in the new table */
+  .table th {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 8px;
+    font-weight: bold;
+    font-size: large;
+    text-align: center; /* Center align table headings */
+    
+  }
+  
+  /* Style for table cells in the new table */
+  .table td {
+    border: 1px solid #dee2e6;
+    padding: 8px;
+    text-align: center; /* Center align table cells */
+  }
+  
+  /* Style for links */
+  a {
+    text-decoration: none;
+  }
+  
+  /* Style for links when hovered */
+  a:hover {
+    text-decoration: none;
+  }
+  .btn-danger {
+    background-color: #dc3545;
+    color: white !important;
+    text-decoration: none;
+    padding: 8px ;
+    border-radius: 4px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+  }
+  .edit{
+    color: white !important;
+    text-decoration: none;
+    padding: 8px ;
+    border-radius: 4px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+  }
